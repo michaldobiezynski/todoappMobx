@@ -37,7 +37,6 @@ export default class ToDoComponent extends React.Component<
 
   render() {
     let todos = this.props.ToDoStore?.getToDos() || [];
-    // console.log(toJS(todos));
 
     return (
       <div className="todoContainer">
