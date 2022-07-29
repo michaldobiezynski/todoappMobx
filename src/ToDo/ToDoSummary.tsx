@@ -1,6 +1,6 @@
 import { inject, observer } from "mobx-react";
 import * as React from "react";
-import ToDoStore from "./ToDoStore";
+import ToDoStore from "../ToDoStore";
 
 @inject("ToDoStore")
 @observer

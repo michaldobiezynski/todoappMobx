@@ -8,7 +8,7 @@ import ToDoSummary from "./ToDo/ToDoSummary";
 export default class App extends React.Component<{}, {}> {
   private todoStore: ToDoStore;
 
-  constructor(props) {
+  constructor(props: {} | Readonly<{}>) {
     super(props);
     this.todoStore = new ToDoStore();
   }
