@@ -7,7 +7,7 @@ export default class ToDoStore {
     @observable
     ToDos: ToDoModel[] = [];
 
-    private todoAPI = 'https://localhost:44308/api/ToDo';
+    private todoAPI = 'https://jsonplaceholder.typicode.com/users/1/todos';
 
     @action.bound
     async init() {
