@@ -10,7 +10,7 @@ export default class ToDoComponent extends React.Component<
   { ToDoStore?: ToDoStore },
   { title: string; completed: boolean; todoError: Error | null }
 > {
-  constructor(props?: ToDoStore) {
+  constructor(props?: any) {
     super(props);
     this.state = { title: "", completed: false, todoError: null };
 
