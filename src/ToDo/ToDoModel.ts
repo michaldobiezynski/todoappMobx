@@ -1,5 +1,5 @@
 export default class ToDoModel {
-    id?: string;
+    id?: number;
     title!: string;
     completed!: boolean;
 }
